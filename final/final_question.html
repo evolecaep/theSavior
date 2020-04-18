@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8" />
+ 	<!-- 폰트 -->
+	<link href="https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff">
+	<!-- 스타일 -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+		<div id="title_image">
+			<img src="graphic/title_economy.png" width=400px 	alt="경제" >
+		</div>
+		<div id="title_typo">
+	    <h1>인간</h1>
+    	<h2>이 글을 읽는<br>과거의 인간,<br>우리의 구원자에게</h2>
+		</div>
+  </header>
+	<div id="bridge">
+  <div id="grid">
+    <div id="left_wing">
+    </div>
+    <article>
+      <p id="minor">이 글을 읽는 과거의 당신에게,</p>
+      <p>
+        가장 먼저, 죄송하다는 말씀을 드리고 싶습니다. 이것은 지금까지 당신을 속인 것에 대한 사과기도 하지만, 지금부터 당신에게 고백할 사실에 대한 사과기도 합니다.
+      </p>
+			<p>
+				당신은 이 문서가 타임머신에 의해 미래에서 추출된 것이라고 알고 있을 겁니다. 그러나 정확히 말하자면, 이 문서는 전송된 겁니다. 우리, 그러니까 미래의 인류에게서 여러분, 바로 과거의 인류에게로. 여러분에게 답을 구하기 위해서 말입니다.
+			</p>
+			<p>
+				세상은 변했지만 우리는 변하지 못했습니다. 우리는 더 이상 설명할 수 없는 것들을 매 순간 맞닥뜨리고 있습니다. 우리는 지금까지 믿어왔던 모든 관점을 부정당했습니다. 우리는 사회와 질서, 가치와 윤리, 자연과 물질, 그리고 무엇보다도 인간, 바로 우리 자신을 이해할 수 없게 되었습니다. 그 무엇도 인간을 지배하지 못하는 지금, 우리는 공백이 만들어낸 참을 수 없는 공포에 지배당하고 있습니다. 개인은 방황하고, 사회는 와해되고, 이념은 자기모순에 빠져 길을 잃었습니다.
+			</p>
+			<p>
+				이 아래에 당신이 지금까지 했던 답변들을 첨부했습니다. 부디 이 모든 것들을 토대로 마지막 질문에 대한 답을 찾아내주시기 바랍니다. 그 답변만이 우리를 구원할 수 있을 겁니다.
+			</p>
+			<p>
+				우리, 바로 미래의 당신을 말입니다.
+			</p>
+
+			<div id="question">
+				<p> <span id="green"> <span id="whoru"></span>님의 답변:		</span></p>
+				<p>
+					<span id="green">경제)</span> 바람직한 정치의 목적은 무엇입니까? 그것은 우리의 정체성과 어떠한 관계에 있습니까?
+				</p>
+        <p id="answer1" class="answers"></p>
+				<p>
+					<span id="green">정치)</span> 바람직한 정치의 목적은 무엇입니까? 그것은 우리의 정체성과 어떠한 관계에 있습니까?
+				</p>
+				<p id="answer2" class="answers"></p>
+				<p>
+					<span id="green">예술)</span> 인간이 예술을 향유하는 이유는 무엇입니까?
+				</p>
+				<p id="answer3" class="answers"></p>
+				<p>
+					<span id="green">마지막 질문)</span> 인간의 의미란 무엇입니까? 그것은 우리의 기술, 경제, 정치, 그리고 예술과 어떤 관계를 맺고 있습니까?
+				</p>
+        <p>
+          <span id="politics_submit" ></span>
+          <span id="art_submit" ></span>
+          <span id="economy_submit"></span>
+        </p>
+      </div>
+    </article>
+    <div id="right_wing"></div>
+  </div>
+	<footer>
+		<p>가나다</p>
+	</footer>
+  <script>
+		yourName=localStorage.name;
+  	answerE=localStorage.a1;
+		answerP=localStorage.a2;
+		answerA=localStorage.a3;
+		document.getElementById("whoru")	.innerText = yourName;
+    document.getElementById("answer1")	.innerText = answerE;
+		document.getElementById("answer2").innerText = answerP;
+		document.getElementById("answer3").innerText = answerA;
+  </script>
+</body>
+</html>

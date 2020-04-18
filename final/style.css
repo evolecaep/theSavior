@@ -1,0 +1,146 @@
+body{
+
+}
+header {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  color: white;
+
+  font-family: NeoDunggeunmo, serif;
+  font-weight: normal;
+  font-style: normal;
+
+  background-color: rgb(10,10,10);
+  background-image: url(graphic/pattern_start.png);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+#title_image{
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+#title_typo{
+  padding-bottom: 200px;
+  padding-left:20px;
+  padding-right:20px;
+  color: rgb(0,255,0);
+
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  margin-top: 60px;
+  font-size: 32px;
+  line-height: 1.6;
+}
+h4 {
+  margin-top:60px;
+  font-size: 112px;
+}
+#minor{
+  color=green;
+  font-align:center;
+}
+#grid {
+  padding-bottom: 200px;
+  display:grid;
+  grid-template-columns: 1fr 1200px 1fr;
+  background-image: url(graphic/pattern_infi.png);
+}
+@media(max-width:1200px){
+  #grid{
+    grid-template-columns:0px 1fr 0px;
+  }
+}
+#left_wing{
+}
+#right_wing{
+}
+article {
+  padding-top: 45px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 70px;
+  background-color: rgb(30, 30, 30);
+}
+article p {
+  margin-left:20px;
+  margin-right:20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: NeoDunggeunmo, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size:32px;
+  line-height:1.6;
+  text-align: justify;
+  text-indent: 1em;
+  color: white;
+}
+#minor{
+  color: rgb(0,255,0);
+  text-align: left;
+  padding-top:25px;
+  margin-bottom: -25px;
+}
+#center {
+  text-align: center;
+  color: rgb(0,255,0);
+}
+#question{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+#yellow {
+  color: rgb(255,255,0);
+}
+#green {
+  color: rgb(47,255,47);
+}
+#question p {
+  text-indent: 0;
+}
+
+.open-ended {
+  background-color: rgb(10,10,10);
+  color: rgb(47,255,47);
+  border: 1px solid rgb(47,255,47);
+  height:48px;
+  width:960px;
+  padding-left: 4px;
+  font-family: inherit;
+  font-size: 16px;
+}
+.submit-button{
+  background-color: rgb(10,10,10);
+  color: rgb(47,255,47);
+  border: 1px solid rgb(47,255,47);
+  height:48px;
+  width:200px;
+  font-size: 32px;
+  font-family: inherit;
+}
+
+.enter-name{
+  background-color: rgb(10,10,10);
+  color: rgb(47,255,47);
+  border: 1px solid rgb(47,255,47);
+  font-size: 32px;
+  font-family: inherit;
+  text-align: center;
+}
+.answers{
+  padding-left: 10px;
+  border: 1px solid rgb(47,255,47);
+  color: rgb(47,255,47);
+}
+
+footer {
+  background-color: rgb(10,10,10);
+  /*background-image: url(graphic/pattern_end.png);
+  background-repeat: repeat-x;
+  background-position: left top; */
+  padding-top: 1000px;
+}
