@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+  <title></title>
+  <!-- java script -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
+  <!-- 폰트 -->
+  <link href="https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff">
+	<!-- 스타일 -->
+	<link rel=stylesheet href="style.css">
+</head>
+<body>
+  <header>
+		<div id="title_typo">
+      <h2>2020 두 번째 모과차</h2>
+      <br>
+      <br>
+      <br>
+      <h1>경고!</h1>
+	    <h1>접속이 거부되었습니다</h1>
+      <br>
+      <br>
+    	<h2>등록된 사용자의 이름을 <br>
+        입력해주시기 바랍니다.</h2>
+        <br>
+    <input id="login_button" type="text" value="" class="enter-name"> </input>
+    <input id="login_submit" type="button" value="접속" class="enter-name"> </input>
+    </div>
+
+  </header>
+  <script>
+    ibtn=document.getElementById('login_submit');
+    ibtn.addEventListener('click', letsLogin);
+    function letsLogin(){
+      location.href='introduction.html';
+      localStorage.name=document.getElementById('login_button').value;
+    }
+    </script>
+</body>
+</html>
